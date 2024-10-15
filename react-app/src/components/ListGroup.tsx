@@ -5,7 +5,7 @@ interface Props {
 
   onSelectItem: (item: string) => void;
 }
-
+//.map
 function ListGroup({ items, heading, onSelectItem }: Props) {
   const [selectedIndex, setSelectedIndex] = useState(-1);
 
